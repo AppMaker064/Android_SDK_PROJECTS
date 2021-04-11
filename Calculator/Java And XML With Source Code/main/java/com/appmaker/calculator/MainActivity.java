@@ -218,37 +218,30 @@ public class MainActivity extends AppCompatActivity {
 
     public void divideBTNPush(View view) {
         updateText(getResources().getString(R.string.divideText));
-        answer.setText("");
     }
 
     public void multiplyBTNPush(View view) {
         updateText(getResources().getString(R.string.multiplyText));
-        answer.setText("");
     }
 
     public void addBTNPush(View view) {
         updateText(getResources().getString(R.string.addText));
-        answer.setText("");
     }
 
     public void subtractBTNPush(View view) {
         updateText(getResources().getString(R.string.subtractText));
-        answer.setText("");
     }
 
     public void decimalBTNPush(View view) {
         updateText(getResources().getString(R.string.decimalText));
-        answer.setText("");
     }
 
     public void exponentBTNPush(View view) {
         updateText(getResources().getString(R.string.exponentText));
-        answer.setText("");
     }
 
     public void plusminusBTNPush(View view) {
         updateText("(-");
-        answer.setText("");
     }
 
     public void percentBTNPush(View view) {
@@ -282,6 +275,7 @@ public class MainActivity extends AppCompatActivity {
             userExp = userExp.replaceAll(getResources().getString(R.string.divideText), "/");
             userExp = userExp.replaceAll(getResources().getString(R.string.multiplyText), "*");
             userExp = userExp.replaceAll(getResources().getString(R.string.piText), "pi");
+            userExp = userExp.replaceAll("", "0");
 
             Expression exp = new Expression(userExp);
             String result = String.valueOf(exp.calculate());
@@ -306,6 +300,5 @@ public class MainActivity extends AppCompatActivity {
 
     public void piBTNPush(View view){
         updateText("π×");
-        answer.setText("");
     }
 }
