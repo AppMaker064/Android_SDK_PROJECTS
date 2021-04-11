@@ -24,9 +24,10 @@
     <string name="subtractText">-</string>
     <string name="decimalText">.</string>
     <string name="equalsText">=</string>
-    <string name="plusminusText">+/-</string>
+    <string name="doubleZeroText">00</string>
     <string name="percentText">%</string>
 
     <string name="piText">π</string>
     <string name="exponentText">^</string>
+    <string name="backspaceText">⌫</string>
 </resources>
