@@ -12,13 +12,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
             android:id="@+id/button"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
             android:background="@drawable/equal_button_background"
             android:onClick="clearBTNPush"
@@ -31,10 +32,10 @@
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
             android:background="@drawable/button_background"
             android:onClick="parenthesesOpenBTNPush"
             android:text="@string/parenthesesOpenText"
@@ -44,10 +45,10 @@
 
         <Button
             android:id="@+id/button3"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
             android:background="@drawable/button_background"
             android:onClick="parenthesesCloseBTNPush"
             android:text="@string/parenthesesCloseText"
@@ -57,10 +58,10 @@
 
         <ImageButton
             android:id="@+id/button4"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
             android:background="@drawable/equal_button_background"
             android:contentDescription="@string/type"
             android:onClick="backspaceBTNPush"
@@ -71,9 +72,9 @@
 
         <Button
             android:id="@+id/button5"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="piBTNPush"
             android:text="@string/piText"
@@ -84,11 +85,11 @@
 
         <Button
             android:id="@+id/button6"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:contentDescription="@string/type"
             android:onClick="exponentBTNPush"
@@ -99,11 +100,11 @@
 
         <Button
             android:id="@+id/button7"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="percentBTNPush"
             android:text="@string/percentText"
@@ -113,11 +114,11 @@
 
         <Button
             android:id="@+id/button8"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="divideBTNPush"
             android:text="@string/divideText"
@@ -127,9 +128,9 @@
 
         <Button
             android:id="@+id/button9"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="sevenBTNPush"
             android:text="@string/sevenText"
@@ -139,11 +140,11 @@
 
         <Button
             android:id="@+id/button10"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="eightBTNPush"
             android:text="@string/eightText"
@@ -153,11 +154,11 @@
 
         <Button
             android:id="@+id/button11"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="nineBTNPush"
             android:text="@string/nineText"
@@ -167,11 +168,11 @@
 
         <Button
             android:id="@+id/button12"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="multiplyBTNPush"
             android:text="@string/multiplyText"
@@ -181,9 +182,9 @@
 
         <Button
             android:id="@+id/button13"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="fourBTNPush"
             android:text="@string/fourText"
@@ -193,11 +194,11 @@
 
         <Button
             android:id="@+id/button14"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="fiveBTNPush"
             android:text="@string/fiveText"
@@ -207,11 +208,11 @@
 
         <Button
             android:id="@+id/button15"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="sixBTNPush"
             android:text="@string/sixText"
@@ -221,11 +222,11 @@
 
         <Button
             android:id="@+id/button16"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="subtractBTNPush"
             android:text="@string/subtractText"
@@ -235,9 +236,9 @@
 
         <Button
             android:id="@+id/button17"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="oneBTNPush"
             android:text="@string/oneText"
@@ -247,11 +248,11 @@
 
         <Button
             android:id="@+id/button18"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="twoBTNPush"
             android:text="@string/twoText"
@@ -261,11 +262,11 @@
 
         <Button
             android:id="@+id/button19"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="threeBTNPush"
             android:text="@string/threeText"
@@ -275,11 +276,11 @@
 
         <Button
             android:id="@+id/button20"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="addBTNPush"
             android:text="@string/addText"
@@ -289,9 +290,9 @@
 
         <Button
             android:id="@+id/button21"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="plusminusBTNPush"
             android:text="@string/plusminusText"
@@ -301,11 +302,11 @@
 
         <Button
             android:id="@+id/button22"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="zeroBTNPush"
             android:text="@string/zeroText"
@@ -315,11 +316,11 @@
 
         <Button
             android:id="@+id/button23"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="decimalBTNPush"
             android:text="@string/decimalText"
@@ -329,11 +330,11 @@
 
         <Button
             android:id="@+id/button24"
-            android:layout_width="80dp"
+            android:layout_width="70dp"
             android:layout_height="70dp"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="2dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
             android:background="@drawable/equal_button_background"
             android:onClick="equalsBTNPush"
             android:text="@string/equalsText"
