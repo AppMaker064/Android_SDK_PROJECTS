@@ -240,8 +240,19 @@ public class MainActivity extends AppCompatActivity {
         updateText(getResources().getString(R.string.exponentText));
     }
 
-    public void plusminusBTNPush(View view) {
-        updateText("(-");
+    public void doubleZeroBTNPush(View view) {
+        updateText("00");
+        String userExp = display.getText().toString();
+
+        userExp = userExp.replaceAll(getResources().getString(R.string.divideText), "/");
+        userExp = userExp.replaceAll(getResources().getString(R.string.multiplyText), "*");
+        userExp = userExp.replaceAll(getResources().getString(R.string.piText), "pi");
+
+        Expression exp = new Expression(userExp);
+        String result = String.valueOf(exp.calculate());
+
+        answer.setText(result);
+        answer.setSelection(result.length());
     }
 
     public void percentBTNPush(View view) {
