@@ -21,39 +21,43 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <Button
+        <TextView
             android:id="@+id/button"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:background="@drawable/button_background"
             android:onClick="clearBTNPush"
             android:text="@string/AllClearText"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="@color/orange"
             android:textSize="25sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <TextView
             android:id="@+id/button2"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
-            android:background="@drawable/button_background"
             android:onClick="parenthesesOpenBTNPush"
             android:text="@string/parenthesesOpenText"
             android:textColor="@color/orange"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="center"
             android:textSize="25sp"
             app:layout_constraintStart_toEndOf="@+id/button"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <TextView
             android:id="@+id/button3"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="center"
             android:background="@drawable/button_background"
             android:onClick="parenthesesCloseBTNPush"
             android:text="@string/parenthesesCloseText"
@@ -62,12 +66,14 @@
             app:layout_constraintStart_toEndOf="@+id/button2"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <TextView
             android:id="@+id/button4"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="center"
             android:background="@drawable/button_background"
             android:contentDescription="@string/type"
             android:onClick="backspaceBTNPush"
@@ -77,13 +83,15 @@
             app:layout_constraintStart_toEndOf="@+id/button3"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
+        <TextView
             android:id="@+id/button5"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="piBTNPush"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="center"
             android:text="@string/piText"
             android:textColor="@color/orange"
             android:textSize="25sp"
@@ -91,13 +99,15 @@
             app:layout_constraintTop_toBottomOf="@+id/button"
             app:textAllCaps="false" />
 
-        <Button
+        <TextView
             android:id="@+id/button6"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="center"
             android:background="@drawable/button_background"
             android:contentDescription="@string/type"
             android:onClick="exponentBTNPush"
@@ -107,13 +117,15 @@
             app:layout_constraintStart_toEndOf="@+id/button5"
             app:layout_constraintTop_toBottomOf="@+id/button2" />
 
-        <Button
+        <TextView
             android:id="@+id/button7"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="center"
             android:background="@drawable/button_background"
             android:onClick="percentBTNPush"
             android:text="@string/percentText"
@@ -122,12 +134,14 @@
             app:layout_constraintStart_toEndOf="@+id/button6"
             app:layout_constraintTop_toBottomOf="@+id/button3" />
 
-        <Button
+        <TextView
             android:id="@+id/button8"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="center"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="divideBTNPush"
@@ -137,19 +151,22 @@
             app:layout_constraintStart_toEndOf="@+id/button7"
             app:layout_constraintTop_toBottomOf="@+id/button4" />
 
-        <Button
+        <TextView
             android:id="@+id/button9"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
+            android:gravity="center|center_horizontal"
             android:onClick="sevenBTNPush"
             android:text="@string/sevenText"
+            android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button5" />
 
-        <Button
+        <TextView
             android:id="@+id/button10"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -157,13 +174,16 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
+            android:gravity="center|center_horizontal"
             android:onClick="eightBTNPush"
             android:text="@string/eightText"
+            android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@+id/button9"
             app:layout_constraintTop_toBottomOf="@+id/button6" />
 
-        <Button
+        <TextView
             android:id="@+id/button11"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -171,19 +191,24 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
+            android:gravity="center|center_horizontal"
             android:onClick="nineBTNPush"
             android:text="@string/nineText"
+            android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@+id/button10"
             app:layout_constraintTop_toBottomOf="@+id/button7" />
 
-        <Button
+        <TextView
             android:id="@+id/button12"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="center"
             android:background="@drawable/button_background"
             android:onClick="multiplyBTNPush"
             android:text="@string/multiplyText"
@@ -192,19 +217,22 @@
             app:layout_constraintStart_toEndOf="@+id/button11"
             app:layout_constraintTop_toBottomOf="@+id/button8" />
 
-        <Button
+        <TextView
             android:id="@+id/button13"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
+            android:gravity="center|center_horizontal"
             android:onClick="fourBTNPush"
             android:text="@string/fourText"
+            android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button9" />
 
-        <Button
+        <TextView
             android:id="@+id/button14"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -212,13 +240,16 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
+            android:gravity="center|center_horizontal"
             android:onClick="fiveBTNPush"
             android:text="@string/fiveText"
+            android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@+id/button13"
             app:layout_constraintTop_toBottomOf="@+id/button10" />
 
-        <Button
+        <TextView
             android:id="@+id/button15"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -226,13 +257,16 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
+            android:gravity="center|center_horizontal"
             android:onClick="sixBTNPush"
             android:text="@string/sixText"
+            android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@+id/button14"
             app:layout_constraintTop_toBottomOf="@+id/button11" />
 
-        <Button
+        <TextView
             android:id="@+id/button16"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -240,26 +274,31 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
+            android:gravity="center|center_horizontal"
             android:onClick="subtractBTNPush"
             android:text="@string/subtractText"
+            android:textAlignment="center"
             android:textColor="@color/orange"
-            android:textSize="36sp"
+            android:textSize="30sp"
             app:layout_constraintStart_toEndOf="@+id/button15"
             app:layout_constraintTop_toBottomOf="@+id/button12" />
 
-        <Button
+        <TextView
             android:id="@+id/button17"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
+            android:gravity="center|center_horizontal"
             android:onClick="oneBTNPush"
             android:text="@string/oneText"
+            android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button13" />
 
-        <Button
+        <TextView
             android:id="@+id/button18"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -267,13 +306,16 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
+            android:gravity="center|center_horizontal"
             android:onClick="twoBTNPush"
             android:text="@string/twoText"
+            android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@+id/button17"
             app:layout_constraintTop_toBottomOf="@+id/button14" />
 
-        <Button
+        <TextView
             android:id="@+id/button19"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -281,13 +323,16 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
+            android:gravity="center|center_horizontal"
             android:onClick="threeBTNPush"
             android:text="@string/threeText"
+            android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@+id/button18"
             app:layout_constraintTop_toBottomOf="@+id/button15" />
 
-        <Button
+        <TextView
             android:id="@+id/button20"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -296,26 +341,30 @@
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
             android:onClick="addBTNPush"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="center"
             android:text="@string/addText"
             android:textColor="@color/orange"
             android:textSize="30sp"
             app:layout_constraintStart_toEndOf="@+id/button19"
             app:layout_constraintTop_toBottomOf="@+id/button16" />
 
-        <Button
+        <TextView
             android:id="@+id/button21"
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
+            android:gravity="center|center_horizontal"
             android:onClick="doubleZeroBTNPush"
             android:text="@string/doubleZeroText"
-            android:textColor="@color/orange"
+            android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="24sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button17" />
 
-        <Button
+        <TextView
             android:id="@+id/button22"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -323,13 +372,16 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/button_background"
+            android:gravity="center|center_horizontal"
             android:onClick="zeroBTNPush"
             android:text="@string/zeroText"
+            android:textAlignment="center"
+            android:textColor="@color/black"
             android:textSize="24sp"
             app:layout_constraintStart_toEndOf="@+id/button21"
             app:layout_constraintTop_toBottomOf="@+id/button18" />
 
-        <Button
+        <TextView
             android:id="@+id/button23"
             android:layout_width="70dp"
             android:layout_height="70dp"
@@ -339,6 +391,8 @@
             android:background="@drawable/button_background"
             android:onClick="decimalBTNPush"
             android:text="@string/decimalText"
+            android:gravity="center|center_horizontal"
+            android:textAlignment="center"
             android:textColor="@color/orange"
             android:textSize="36sp"
             app:layout_constraintStart_toEndOf="@+id/button22"
